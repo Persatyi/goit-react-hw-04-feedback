@@ -5,7 +5,7 @@ const FeedbackOptions = props => {
   const { names, type, method } = props;
   return (
     <>
-      {names.slice(0, 3).map(name => (
+      {names.map(name => (
         <button
           id={name}
           type={type}
